@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Sustainability Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .container-shadow {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-4">
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-4 z-50 flex justify-center mb-8">
+        <div class="bg-white rounded-full container-shadow p-2 flex flex-wrap justify-center space-x-2 sm:space-x-4 text-sm sm:text-base">
+            <a href="#background" class="px-3 py-2 sm:px-4 sm:py-2 rounded-full text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">Background</a>
+            <a href="#problem" class="px-3 py-2 sm:px-4 sm:py-2 rounded-full text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">Problem</a>
+            <a href="#objectives" class="px-3 py-2 sm:px-4 sm:py-2 rounded-full text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">Objectives</a>
+            <a href="#questions" class="px-3 py-2 sm:px-4 sm:py-2 rounded-full text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 hidden sm:block">Questions</a>
+            <a href="#literature" class="px-3 py-2 sm:px-4 sm:py-2 rounded-full text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 hidden sm:block">Lit Review</a>
+            <a href="#framework" class="px-3 py-2 sm:px-4 sm:py-2 rounded-full text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 hidden sm:block">Framework</a>
+            <a href="#hypothesis" class="px-3 py-2 sm:px-4 sm:py-2 rounded-full text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">Hypothesis</a>
+            <a href="#methodology" class="px-3 py-2 sm:px-4 sm:py-2 rounded-full text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">Methodology</a>
+            <a href="#conclusion" class="px-3 py-2 sm:px-4 sm:py-2 rounded-full text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200">Conclusion</a>
+        </div>
+    </nav>
+    
+    <div class="bg-white rounded-3xl container-shadow max-w-4xl mx-auto p-6 md:p-10">
+
+        <!-- Header Section -->
+        <header class="text-center mb-8">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                Assessing Students' Awareness of Educational Sustainability
+            </h1>
+            <h2 class="text-xl sm:text-2xl font-semibold mt-2 text-gray-700">in Higher Education Institutions</h2>
+            <p class="text-md sm:text-lg text-gray-600 mt-4 font-medium">
+                Noor Aziatul Afifah, Ahmad Adib, Nik Ahmad Nabihan
+            </p>
+            <p class="text-sm text-gray-500 mt-1">Business School, Universiti Kuala Lumpur, Malaysia</p>
+        </header>
+
+        <!-- Image Section -->
+        <div class="my-8 rounded-2xl overflow-hidden">
+            
+        </div>
+
+        <!-- Main Content Area -->
+        <main class="space-y-8">
+
+            <!-- Background of the Study -->
+            <section id="background" class="bg-gray-50 rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">1. Background of the Study</h3>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    Facing global issues like climate change, inequality, and resource depletion, Higher Education Institutions (HEIs) have a crucial role in shaping future leaders and promoting sustainability (SDG 4.7). The United Nations has integrated Education for Sustainable Development (ESD) into global education agendas, emphasizing the need for transformative learning that fosters values and behaviors for a sustainable future. Despite these efforts, a significant gap remains: student awareness is often inconsistent, and there is a lack of research on how various institutional and social factors influence this awareness, particularly in the Malaysian context.
+                </p>
+            </section>
+
+            <!-- Problem Statement -->
+            <section id="problem" class="bg-blue-50 rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-blue-800 mb-4">2. Problem Statement</h3>
+                <p class="text-gray-800 leading-relaxed mb-4">
+                    The problem lies in the uneven awareness of sustainability concepts and initiatives among students in HEIs. While many institutions have integrated sustainability into their curricula and co-curricular activities, the effectiveness of these efforts on student awareness is not well understood. Existing research often focuses on knowledge rather than the attitudes and behaviors that drive true awareness. There is a need for a holistic model that connects external influences—such as lecturers, peers, activities, and information sources—to student attitudes, and ultimately, to their awareness of educational sustainability.
+                </p>
+            </section>
+
+            <!-- Research Objectives -->
+            <section id="objectives" class="bg-gray-50 rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">3. Research Objectives</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-600">
+                    <li>To assess students' awareness of educational sustainability in HEIs.</li>
+                    <li>To examine the direct effects of lecturer experience, peer influence, participation in activities, curriculum exposure, and information sources on students' awareness.</li>
+                    <li>To investigate the mediating role of student attitudes in the relationship between external factors and students' awareness of educational sustainability.</li>
+                    <li>To propose a conceptual framework based on the Value-Belief-Norm (VBN) theory to explain the determinants of student awareness.</li>
+                </ul>
+            </section>
+
+            <!-- Research Questions -->
+            <section id="questions" class="bg-gray-50 rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">4. Research Questions</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-600">
+                    <li>What is the level of students' awareness of educational sustainability in HEIs?</li>
+                    <li>What are the direct effects of lecturer experience, peer influence, participation, curriculum exposure, and information sources on students' awareness?</li>
+                    <li>Does student attitude mediate the relationship between these external factors and students' awareness of educational sustainability?</li>
+                </ul>
+            </section>
+
+            <!-- Literature Review -->
+            <section id="literature" class="bg-gray-50 rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">5. Literature Review</h3>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    The literature review highlights that while sustainability has become a key agenda in HEIs, the effectiveness of these initiatives is a subject of ongoing debate. Studies by Wang et al. (2022) and Wong & Tan (2023) emphasize the importance of curriculum integration and individual motivation in promoting pro-environmental behavior. Warner & Elser (2015) found that certified green schools were more successful at integrating sustainability education. The review concludes that while previous studies have explored various aspects of sustainability education, a comprehensive model linking external factors to student awareness through the mediating role of attitudes, particularly in the Malaysian context, is needed.
+                </p>
+            </section>
+
+            <!-- Theoretical and Hypothesis Development. Conceptual Framework. -->
+            <section id="framework" class="bg-blue-50 rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-blue-800 mb-4">6. Theoretical and Hypothesis Development. Conceptual Framework.</h3>
+                <p class="text-gray-800 leading-relaxed mb-4">
+                    This research is grounded in the Value-Belief-Norm (VBN) theory, which posits that individual values lead to beliefs about environmental issues, which in turn activate a sense of personal responsibility (norms) to act. Our conceptual framework extends this theory to the context of educational sustainability by proposing that external factors directly influence students' awareness.
+                </p>
+                <p class="text-gray-800 leading-relaxed mb-4">
+                    The framework identifies <strong>Lecturer Experience on Sustainability, Peer Influence, Participation in Sustainability-related Activities, Curriculum Exposure, and Information Sources</strong> as the independent variables. These factors are proposed to have a direct effect on students' awareness.
+                </p>
+                <p class="text-gray-800 leading-relaxed mb-4">
+                    Additionally, the framework suggests that student <strong>attitudes</strong> serve as a mediating variable, acting as a bridge between the external factors and students' awareness of educational sustainability. This means that the effect of the independent variables on awareness is also channeled through student attitudes.
+                </p>
+                <div class="flex justify-center my-6">
+                    
+                </div>
+            </section>
+
+            <!-- Hypothesis Development -->
+            <section id="hypothesis" class="bg-gray-50 rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">7. Hypothesis Development</h3>
+                <p class="text-gray-700 leading-relaxed mb-4 font-semibold">
+                    Based on the conceptual framework, the following hypotheses were developed:
+                </p>
+                <ul class="list-disc list-inside space-y-2 text-gray-600">
+                    <li><strong>Direct Effects:</strong></li>
+                    <li>H1: Lecturer experience on sustainability has a significant effect on students' awareness.</li>
+                    <li>H2: Peer influence has a significant effect on students' awareness.</li>
+                    <li>H3: Participation in sustainability-related activities has a significant effect on students' awareness.</li>
+                    <li>H4: Curriculum exposure has a significant effect on students' awareness.</li>
+                    <li>H5: Information sources have a significant effect on students' awareness.</li>
+                    <li><strong>Mediating Effects:</strong></li>
+                    <li>H6-H10: Lecturer, Peer, Participation, Curriculum, and Information Sources influence students' awareness through the mediating effect of Student Attitudes.</li>
+                    <li>H11: Student Attitudes have a significant effect on students' awareness.</li>
+                </ul>
+            </section>
+
+            <!-- Research Methodology -->
+            <section id="methodology" class="bg-gray-50 rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">8. Research Methodology</h3>
+                <p class="text-gray-700 leading-relaxed mb-2 font-semibold">
+                    This study adopted a quantitative research design using a survey questionnaire.
+                </p>
+                <ul class="list-disc list-inside space-y-2 text-gray-600">
+                    <li><span class="font-semibold">Data Collection:</span> A questionnaire was designed using a 5-point Likert scale to measure the variables.</li>
+                    <li><span class="font-semibold">Sample:</span> The target population was undergraduate and postgraduate students at the UniKL Business School.</li>
+                    <li><span class="font-semibold">Data Analysis:</span> The collected data was analyzed using SPSS and SmartPLS, employing the Partial Least Squares Structural Equation Modeling (PLS-SEM) approach to test the mediation hypotheses.</li>
+                </ul>
+            </section>
+
+            <!-- Conclusion -->
+            <section id="conclusion" class="bg-blue-50 rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-blue-800 mb-4">9. Conclusion</h3>
+                <p class="text-gray-800 leading-relaxed">
+                    The study concludes that student attitudes are the key mediator for awareness of educational sustainability. This finding emphasizes the importance of a holistic approach for HEIs that integrates both academic and social strategies. The research provides a practical guide for institutions to strengthen sustainability education by focusing on effective curriculum design, fostering positive peer engagement, and increasing participation in sustainability-related activities.
+                </p>
+            </section>
+
+            <!-- References Section -->
+            <section id="references" class="bg-gray-50 rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">References</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+                    <li>UNESCO. (2016). <i>Education for Sustainable Development Goals: Learning Objectives</i>. UNESCO Publishing.</li>
+                    <li>Wang, L., Zhang, W., & Li, J. (2022). Sustainability pedagogy and pro-environmental behavior: The role of curricular integration in Chinese universities. <i>International Journal of Sustainability in Higher Education, 23</i>(4), 843–859.</li>
+                    <li>Wang, Y., Zhang, H., & Liu, L. (2022). The mediating effect of student attitudes on the relationship between curriculum design and sustainability awareness. <i>Journal of Cleaner Production, 375</i>, 134032.</li>
+                    <li>Warner, B. P., & Elser, M. (2015). How do sustainable schools integrate sustainability education? An assessment of certified green schools. <i>Journal of Sustainability Education, 7</i>, 1–20.</li>
+                    <li>Wong, K. Y., & Tan, C. C. (2023). Mediating effect of motivation on green organizational culture and job performance in Malaysian public universities. <i>International Journal of Sustainability in Higher Education, 24</i>(2), 269-286.</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="text-center mt-8 text-gray-500 text-sm">
+            <p>&copy; 2024 Group 9 Seminar Journal. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
